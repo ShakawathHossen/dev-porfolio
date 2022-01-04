@@ -10,6 +10,7 @@ body{
     display: flex;
     width: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 20px;
 }
 .my-name{
     color: #2CB2E9;
@@ -53,3 +54,58 @@ h1{
     background-image: linear-gradient(tomato,orange);
     transition: 2s;
 }
+
+/*-----section 1 end----*/
+/*-----section 2 start----*/
+
+.big-dream{
+    display: flex;
+    margin-bottom: 40px;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bd1{
+    margin-left: 40px;
+}
+.bd2{
+    margin-left: 70px;
+}
+.s3-image{
+    width: 500px;
+    height: 500px;
+}
+.bd2-h1{
+    color: #2CB2E9;
+    font-size: 50px;
+    margin-top: 80px;
+    
+}
+.bd2-h1:hover{
+    color: tomato;
+    transition: .6s;
+}
+.bd2-p{
+   
+    text-align: justify;
+    margin-right: 150px;
+    padding-bottom: 10px;;
+    
+}
+
+.bd-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.bd-button:hover{
+    background-image: linear-gradient(tomato,orange);
+    transition: 2s;
+}
+
+/*-----section 2 end----*/
+/*-----section 3 start----*/
+
