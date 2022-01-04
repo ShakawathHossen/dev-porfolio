@@ -1,0 +1,55 @@
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.tb{
+    background-image: url(top-banner.png);
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.my-name{
+    color: #2CB2E9;
+}
+.my-name:hover{
+    color: tomato;
+    transition: .6s;
+}
+h1{
+    font-size: 50px;
+}
+.s1{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.s2{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.s2-bg{
+    width: 500px;
+    height: 500px;
+}
+.description{
+   
+    text-align: justify;
+    margin-right: 60px;
+    padding-bottom: 10px;;
+    
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.hire-button:hover{
+    background-image: linear-gradient(tomato,orange);
+    transition: 2s;
+}
